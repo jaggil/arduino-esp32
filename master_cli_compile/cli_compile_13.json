@@ -1,528 +1,605 @@
 {"boards": [
-{ "board": "espressif:esp32:esp32s3:PSRAM=opi,USBMode=default,PartitionScheme=huge_app",
+{ "board": "espressif:esp32:esp32s3",
                 "target": "esp32s3",
                 "sketches": [
-{"name": "WiFi/examples/WiFiBlueToothSwitch",
-                    "sizes": [{
-                            "flash_bytes": 937893,
-                            "flash_percentage": 29,
-                            "ram_bytes": 41816,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiClient",
-                    "sizes": [{
-                            "flash_bytes": 862029,
-                            "flash_percentage": 27,
-                            "ram_bytes": 41640,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiClientBasic",
-                    "sizes": [{
-                            "flash_bytes": 863341,
-                            "flash_percentage": 27,
-                            "ram_bytes": 41608,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiClientConnect",
-                    "sizes": [{
-                            "flash_bytes": 851561,
-                            "flash_percentage": 27,
-                            "ram_bytes": 40632,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiClientEnterprise",
-                    "sizes": [{
-                            "flash_bytes": 951821,
-                            "flash_percentage": 30,
-                            "ram_bytes": 42232,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiClientEvents",
-                    "sizes": [{
-                            "flash_bytes": 850317,
-                            "flash_percentage": 27,
-                            "ram_bytes": 40312,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiClientStaticIP",
-                    "sizes": [{
-                            "flash_bytes": 862033,
-                            "flash_percentage": 27,
-                            "ram_bytes": 41712,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiIPv6",
-                    "sizes": [{
-                            "flash_bytes": 859589,
-                            "flash_percentage": 27,
-                            "ram_bytes": 41992,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiMulti",
-                    "sizes": [{
-                            "flash_bytes": 850345,
-                            "flash_percentage": 27,
-                            "ram_bytes": 40352,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiMultiAdvanced",
-                    "sizes": [{
-                            "flash_bytes": 981769,
-                            "flash_percentage": 31,
-                            "ram_bytes": 42248,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScan",
-                    "sizes": [{
-                            "flash_bytes": 848825,
-                            "flash_percentage": 26,
-                            "ram_bytes": 40320,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScanAsync",
-                    "sizes": [{
-                            "flash_bytes": 849089,
-                            "flash_percentage": 26,
-                            "ram_bytes": 40320,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScanDualAntenna",
-                    "sizes": [{
-                            "flash_bytes": 849613,
-                            "flash_percentage": 27,
-                            "ram_bytes": 40320,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiSmartConfig",
-                    "sizes": [{
-                            "flash_bytes": 882657,
-                            "flash_percentage": 28,
-                            "ram_bytes": 40616,
-                            "ram_percentage": 12
-                            }]
-                    }
-]
-},
-{ "board": "espressif:esp32:esp32s2:PSRAM=enabled,PartitionScheme=huge_app",
-                "target": "esp32s2",
-                "sketches": [
-{"name": "WiFi/examples/FTM/FTM_Responder",
-                    "sizes": [{
-                            "flash_bytes": 825654,
-                            "flash_percentage": 26,
-                            "ram_bytes": 36076,
-                            "ram_percentage": 11
-                            }]
-                    },
 {"name": "WiFi/examples/SimpleWiFiServer",
                     "sizes": [{
-                            "flash_bytes": 858782,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37892,
-                            "ram_percentage": 11
+                            "flash_bytes": 893557,
+                            "flash_percentage": 28,
+                            "ram_bytes": 42228,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WPS",
                     "sizes": [{
-                            "flash_bytes": 847134,
-                            "flash_percentage": 26,
-                            "ram_bytes": 36300,
-                            "ram_percentage": 11
+                            "flash_bytes": 878557,
+                            "flash_percentage": 27,
+                            "ram_bytes": 40484,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiAccessPoint",
                     "sizes": [{
-                            "flash_bytes": 859190,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37892,
-                            "ram_percentage": 11
+                            "flash_bytes": 893961,
+                            "flash_percentage": 28,
+                            "ram_bytes": 42228,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiBlueToothSwitch",
+                    "sizes": [{
+                            "flash_bytes": 951453,
+                            "flash_percentage": 30,
+                            "ram_bytes": 41964,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiClient",
                     "sizes": [{
-                            "flash_bytes": 839686,
-                            "flash_percentage": 26,
-                            "ram_bytes": 37396,
-                            "ram_percentage": 11
+                            "flash_bytes": 870461,
+                            "flash_percentage": 27,
+                            "ram_bytes": 41748,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientBasic",
                     "sizes": [{
-                            "flash_bytes": 841062,
-                            "flash_percentage": 26,
-                            "ram_bytes": 37372,
-                            "ram_percentage": 11
+                            "flash_bytes": 871789,
+                            "flash_percentage": 27,
+                            "ram_bytes": 41724,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientConnect",
                     "sizes": [{
-                            "flash_bytes": 829466,
-                            "flash_percentage": 26,
-                            "ram_bytes": 36388,
-                            "ram_percentage": 11
+                            "flash_bytes": 860001,
+                            "flash_percentage": 27,
+                            "ram_bytes": 40740,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientEnterprise",
                     "sizes": [{
-                            "flash_bytes": 930946,
-                            "flash_percentage": 29,
-                            "ram_bytes": 37988,
-                            "ram_percentage": 11
+                            "flash_bytes": 961617,
+                            "flash_percentage": 30,
+                            "ram_bytes": 42372,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientEvents",
                     "sizes": [{
-                            "flash_bytes": 828034,
-                            "flash_percentage": 26,
-                            "ram_bytes": 36076,
-                            "ram_percentage": 11
+                            "flash_bytes": 859333,
+                            "flash_percentage": 27,
+                            "ram_bytes": 40428,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientStaticIP",
                     "sizes": [{
-                            "flash_bytes": 839702,
+                            "flash_bytes": 870469,
+                            "flash_percentage": 27,
+                            "ram_bytes": 41820,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiExtender",
+                    "sizes": [{
+                            "flash_bytes": 858653,
+                            "flash_percentage": 27,
+                            "ram_bytes": 40532,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiIPv6",
+                    "sizes": [{
+                            "flash_bytes": 868405,
+                            "flash_percentage": 27,
+                            "ram_bytes": 42100,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiMulti",
+                    "sizes": [{
+                            "flash_bytes": 858925,
+                            "flash_percentage": 27,
+                            "ram_bytes": 40468,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiMultiAdvanced",
+                    "sizes": [{
+                            "flash_bytes": 991501,
+                            "flash_percentage": 31,
+                            "ram_bytes": 42380,
+                            "ram_percentage": 12
+                            }]
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32s2",
+                "target": "esp32s2",
+                "sketches": [
+{"name": "WiFi/examples/WiFiExtender",
+                    "sizes": [{
+                            "flash_bytes": 835790,
                             "flash_percentage": 26,
-                            "ram_bytes": 37468,
+                            "ram_bytes": 36280,
                             "ram_percentage": 11
                             }]
                     },
 {"name": "WiFi/examples/WiFiIPv6",
                     "sizes": [{
-                            "flash_bytes": 837190,
+                            "flash_bytes": 845514,
                             "flash_percentage": 26,
-                            "ram_bytes": 37748,
+                            "ram_bytes": 37848,
                             "ram_percentage": 11
                             }]
                     },
 {"name": "WiFi/examples/WiFiMulti",
                     "sizes": [{
-                            "flash_bytes": 828034,
+                            "flash_bytes": 836006,
                             "flash_percentage": 26,
-                            "ram_bytes": 36116,
+                            "ram_bytes": 36216,
                             "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiMultiAdvanced",
+                    "sizes": [{
+                            "flash_bytes": 970130,
+                            "flash_percentage": 30,
+                            "ram_bytes": 38128,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScan",
+                    "sizes": [{
+                            "flash_bytes": 834494,
+                            "flash_percentage": 26,
+                            "ram_bytes": 36176,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScanAsync",
+                    "sizes": [{
+                            "flash_bytes": 834750,
+                            "flash_percentage": 26,
+                            "ram_bytes": 36176,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScanDualAntenna",
+                    "sizes": [{
+                            "flash_bytes": 835058,
+                            "flash_percentage": 26,
+                            "ram_bytes": 36176,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScanTime",
+                    "sizes": [{
+                            "flash_bytes": 834574,
+                            "flash_percentage": 26,
+                            "ram_bytes": 36176,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiSmartConfig",
+                    "sizes": [{
+                            "flash_bytes": 867974,
+                            "flash_percentage": 27,
+                            "ram_bytes": 36480,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiTelnetToSerial",
+                    "sizes": [{
+                            "flash_bytes": 853710,
+                            "flash_percentage": 27,
+                            "ram_bytes": 37568,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiUDPClient",
+                    "sizes": [{
+                            "flash_bytes": 842906,
+                            "flash_percentage": 26,
+                            "ram_bytes": 37848,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFiProv/examples/WiFiProv",
+                    "sizes": [{
+                            "flash_bytes": 968946,
+                            "flash_percentage": 30,
+                            "ram_bytes": 36256,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "Wire/examples/WireMaster",
+                    "sizes": [{
+                            "flash_bytes": 272654,
+                            "flash_percentage": 8,
+                            "ram_bytes": 13952,
+                            "ram_percentage": 4
                             }]
                     }
 ]
 },
-{ "board": "espressif:esp32:esp32c3:PartitionScheme=huge_app",
+{ "board": "espressif:esp32:esp32c3",
                 "target": "esp32c3",
                 "sketches": [
+{"name": "WiFi/examples/WiFiClientBasic",
+                    "sizes": [{
+                            "flash_bytes": 915204,
+                            "flash_percentage": 29,
+                            "ram_bytes": 34844,
+                            "ram_percentage": 10
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiClientConnect",
+                    "sizes": [{
+                            "flash_bytes": 902128,
+                            "flash_percentage": 28,
+                            "ram_bytes": 33868,
+                            "ram_percentage": 10
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiClientEnterprise",
+                    "sizes": [{
+                            "flash_bytes": 1012184,
+                            "flash_percentage": 32,
+                            "ram_bytes": 35508,
+                            "ram_percentage": 10
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiClientEvents",
+                    "sizes": [{
+                            "flash_bytes": 901662,
+                            "flash_percentage": 28,
+                            "ram_bytes": 33556,
+                            "ram_percentage": 10
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiClientStaticIP",
+                    "sizes": [{
+                            "flash_bytes": 913864,
+                            "flash_percentage": 29,
+                            "ram_bytes": 34956,
+                            "ram_percentage": 10
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiExtender",
+                    "sizes": [{
+                            "flash_bytes": 900872,
+                            "flash_percentage": 28,
+                            "ram_bytes": 33660,
+                            "ram_percentage": 10
+                            }]
+                    },
 {"name": "WiFi/examples/WiFiIPv6",
                     "sizes": [{
-                            "flash_bytes": 901576,
+                            "flash_bytes": 911722,
                             "flash_percentage": 28,
-                            "ram_bytes": 35132,
+                            "ram_bytes": 35228,
                             "ram_percentage": 10
                             }]
                     },
 {"name": "WiFi/examples/WiFiMulti",
                     "sizes": [{
-                            "flash_bytes": 890874,
+                            "flash_bytes": 900678,
                             "flash_percentage": 28,
-                            "ram_bytes": 33500,
+                            "ram_bytes": 33596,
                             "ram_percentage": 10
                             }]
                     },
 {"name": "WiFi/examples/WiFiMultiAdvanced",
                     "sizes": [{
-                            "flash_bytes": 1026414,
+                            "flash_bytes": 1037692,
                             "flash_percentage": 32,
-                            "ram_bytes": 35404,
+                            "ram_bytes": 35516,
                             "ram_percentage": 10
                             }]
                     },
 {"name": "WiFi/examples/WiFiScan",
                     "sizes": [{
-                            "flash_bytes": 889516,
+                            "flash_bytes": 899296,
                             "flash_percentage": 28,
-                            "ram_bytes": 33468,
+                            "ram_bytes": 33564,
                             "ram_percentage": 10
                             }]
                     },
 {"name": "WiFi/examples/WiFiScanAsync",
                     "sizes": [{
-                            "flash_bytes": 889788,
+                            "flash_bytes": 899564,
                             "flash_percentage": 28,
-                            "ram_bytes": 33468,
+                            "ram_bytes": 33564,
                             "ram_percentage": 10
                             }]
                     },
 {"name": "WiFi/examples/WiFiScanDualAntenna",
                     "sizes": [{
-                            "flash_bytes": 890316,
+                            "flash_bytes": 900094,
                             "flash_percentage": 28,
-                            "ram_bytes": 33468,
+                            "ram_bytes": 33564,
                             "ram_percentage": 10
+                            }]
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32c6",
+                "target": "esp32c6",
+                "sketches": [
+{"name": "WiFi/examples/WiFiClientStaticIP",
+                    "sizes": [{
+                            "flash_bytes": 900022,
+                            "flash_percentage": 28,
+                            "ram_bytes": 39492,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiExtender",
+                    "sizes": [{
+                            "flash_bytes": 887020,
+                            "flash_percentage": 28,
+                            "ram_bytes": 38196,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiIPv6",
+                    "sizes": [{
+                            "flash_bytes": 897884,
+                            "flash_percentage": 28,
+                            "ram_bytes": 39764,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiMulti",
+                    "sizes": [{
+                            "flash_bytes": 886834,
+                            "flash_percentage": 28,
+                            "ram_bytes": 38124,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiMultiAdvanced",
+                    "sizes": [{
+                            "flash_bytes": 1018676,
+                            "flash_percentage": 32,
+                            "ram_bytes": 40028,
+                            "ram_percentage": 12
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScan",
+                    "sizes": [{
+                            "flash_bytes": 885460,
+                            "flash_percentage": 28,
+                            "ram_bytes": 38092,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScanAsync",
+                    "sizes": [{
+                            "flash_bytes": 885730,
+                            "flash_percentage": 28,
+                            "ram_bytes": 38092,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScanDualAntenna",
+                    "sizes": [{
+                            "flash_bytes": 886084,
+                            "flash_percentage": 28,
+                            "ram_bytes": 38092,
+                            "ram_percentage": 11
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiScanTime",
+                    "sizes": [{
+                            "flash_bytes": 885522,
+                            "flash_percentage": 28,
+                            "ram_bytes": 38092,
+                            "ram_percentage": 11
                             }]
                     },
 {"name": "WiFi/examples/WiFiSmartConfig",
                     "sizes": [{
-                            "flash_bytes": 928704,
+                            "flash_bytes": 924892,
                             "flash_percentage": 29,
-                            "ram_bytes": 33804,
-                            "ram_percentage": 10
+                            "ram_bytes": 38428,
+                            "ram_percentage": 11
                             }]
                     },
 {"name": "WiFi/examples/WiFiTelnetToSerial",
                     "sizes": [{
-                            "flash_bytes": 909424,
+                            "flash_bytes": 905424,
                             "flash_percentage": 28,
-                            "ram_bytes": 34868,
-                            "ram_percentage": 10
+                            "ram_bytes": 39484,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFi/examples/WiFiUDPClient",
                     "sizes": [{
-                            "flash_bytes": 898624,
+                            "flash_bytes": 894948,
                             "flash_percentage": 28,
-                            "ram_bytes": 35132,
-                            "ram_percentage": 10
+                            "ram_bytes": 39764,
+                            "ram_percentage": 12
                             }]
                     },
 {"name": "WiFiProv/examples/WiFiProv",
                     "sizes": [{
-                            "flash_bytes": 1655410,
-                            "flash_percentage": 52,
-                            "ram_bytes": 54660,
-                            "ram_percentage": 16
+                            "flash_bytes": 1758912,
+                            "flash_percentage": 55,
+                            "ram_bytes": 59308,
+                            "ram_percentage": 18
+                            }]
+                    }
+]
+},
+{ "board": "espressif:esp32:esp32h2",
+                "target": "esp32h2",
+                "sketches": [
+{"name": "Ticker/examples/TickerParameter",
+                    "sizes": [{
+                            "flash_bytes": 265640,
+                            "flash_percentage": 8,
+                            "ram_bytes": 13280,
+                            "ram_percentage": 4
+                            }]
+                    },
+{"name": "Update/examples/SD_Update",
+                    "sizes": [{
+                            "flash_bytes": 345812,
+                            "flash_percentage": 10,
+                            "ram_bytes": 13844,
+                            "ram_percentage": 4
                             }]
                     },
 {"name": "Wire/examples/WireMaster",
                     "sizes": [{
-                            "flash_bytes": 274318,
+                            "flash_bytes": 276610,
                             "flash_percentage": 8,
-                            "ram_bytes": 11912,
+                            "ram_bytes": 13048,
                             "ram_percentage": 3
                             }]
                     },
 {"name": "Wire/examples/WireScan",
                     "sizes": [{
-                            "flash_bytes": 273988,
+                            "flash_bytes": 276282,
                             "flash_percentage": 8,
-                            "ram_bytes": 11904,
+                            "ram_bytes": 13040,
                             "ram_percentage": 3
                             }]
-                    }
-]
-},
-{ "board": "espressif:esp32:esp32c6:PartitionScheme=huge_app",
-                "target": "esp32c6",
-                "sketches": [
-{"name": "WiFi/examples/WiFiClientEnterprise",
+                    },
+{"name": "Wire/examples/WireSlave",
                     "sizes": [{
-                            "flash_bytes": 991398,
-                            "flash_percentage": 31,
-                            "ram_bytes": 39896,
-                            "ram_percentage": 12
+                            "flash_bytes": 276378,
+                            "flash_percentage": 8,
+                            "ram_bytes": 13048,
+                            "ram_percentage": 3
                             }]
                     },
-{"name": "WiFi/examples/WiFiClientEvents",
+{"name": "Zigbee/examples/Zigbee_Color_Dimmable_Light",
                     "sizes": [{
-                            "flash_bytes": 877440,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37960,
-                            "ram_percentage": 11
+                            "flash_bytes": 561280,
+                            "flash_percentage": 42,
+                            "ram_bytes": 29112,
+                            "ram_percentage": 8
                             }]
                     },
-{"name": "WiFi/examples/WiFiClientStaticIP",
+{"name": "Zigbee/examples/Zigbee_Color_Dimmer_Switch",
                     "sizes": [{
-                            "flash_bytes": 890212,
-                            "flash_percentage": 28,
-                            "ram_bytes": 39360,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiIPv6",
-                    "sizes": [{
-                            "flash_bytes": 887786,
-                            "flash_percentage": 28,
-                            "ram_bytes": 39632,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiMulti",
-                    "sizes": [{
-                            "flash_bytes": 877024,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37984,
-                            "ram_percentage": 11
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiMultiAdvanced",
-                    "sizes": [{
-                            "flash_bytes": 1007480,
-                            "flash_percentage": 32,
-                            "ram_bytes": 39904,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScan",
-                    "sizes": [{
-                            "flash_bytes": 875672,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37952,
-                            "ram_percentage": 11
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScanAsync",
-                    "sizes": [{
-                            "flash_bytes": 875946,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37952,
-                            "ram_percentage": 11
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScanDualAntenna",
-                    "sizes": [{
-                            "flash_bytes": 876294,
-                            "flash_percentage": 27,
-                            "ram_bytes": 37952,
-                            "ram_percentage": 11
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiSmartConfig",
-                    "sizes": [{
-                            "flash_bytes": 915122,
-                            "flash_percentage": 29,
-                            "ram_bytes": 38296,
-                            "ram_percentage": 11
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiTelnetToSerial",
-                    "sizes": [{
-                            "flash_bytes": 895584,
-                            "flash_percentage": 28,
-                            "ram_bytes": 39344,
-                            "ram_percentage": 12
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiUDPClient",
-                    "sizes": [{
-                            "flash_bytes": 884822,
-                            "flash_percentage": 28,
-                            "ram_bytes": 39624,
-                            "ram_percentage": 12
+                            "flash_bytes": 655860,
+                            "flash_percentage": 50,
+                            "ram_bytes": 32040,
+                            "ram_percentage": 9
                             }]
                     }
 ]
 },
-{ "board": "espressif:esp32:esp32:PSRAM=enabled,PartitionScheme=huge_app",
+{ "board": "espressif:esp32:esp32",
                 "target": "esp32",
                 "sketches": [
+{"name": "WiFi/examples/WiFiBlueToothSwitch",
+                    "sizes": [{
+                            "flash_bytes": 1050873,
+                            "flash_percentage": 33,
+                            "ram_bytes": 47836,
+                            "ram_percentage": 14
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiClient",
+                    "sizes": [{
+                            "flash_bytes": 920473,
+                            "flash_percentage": 29,
+                            "ram_bytes": 45064,
+                            "ram_percentage": 13
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiClientBasic",
+                    "sizes": [{
+                            "flash_bytes": 921869,
+                            "flash_percentage": 29,
+                            "ram_bytes": 45032,
+                            "ram_percentage": 13
+                            }]
+                    },
 {"name": "WiFi/examples/WiFiClientConnect",
                     "sizes": [{
-                            "flash_bytes": 899493,
+                            "flash_bytes": 908097,
                             "flash_percentage": 28,
-                            "ram_bytes": 43596,
+                            "ram_bytes": 43744,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientEnterprise",
                     "sizes": [{
-                            "flash_bytes": 1003517,
-                            "flash_percentage": 31,
-                            "ram_bytes": 45516,
+                            "flash_bytes": 1013421,
+                            "flash_percentage": 32,
+                            "ram_bytes": 45696,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientEvents",
                     "sizes": [{
-                            "flash_bytes": 899837,
+                            "flash_bytes": 908973,
                             "flash_percentage": 28,
-                            "ram_bytes": 43588,
+                            "ram_bytes": 43736,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiClientStaticIP",
                     "sizes": [{
-                            "flash_bytes": 911821,
+                            "flash_bytes": 920501,
+                            "flash_percentage": 29,
+                            "ram_bytes": 45152,
+                            "ram_percentage": 13
+                            }]
+                    },
+{"name": "WiFi/examples/WiFiExtender",
+                    "sizes": [{
+                            "flash_bytes": 908297,
                             "flash_percentage": 28,
-                            "ram_bytes": 44996,
+                            "ram_bytes": 43856,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiIPv6",
                     "sizes": [{
-                            "flash_bytes": 909345,
-                            "flash_percentage": 28,
-                            "ram_bytes": 45276,
+                            "flash_bytes": 918297,
+                            "flash_percentage": 29,
+                            "ram_bytes": 45432,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiMulti",
                     "sizes": [{
-                            "flash_bytes": 899885,
+                            "flash_bytes": 908449,
                             "flash_percentage": 28,
-                            "ram_bytes": 43628,
+                            "ram_bytes": 43776,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiMultiAdvanced",
                     "sizes": [{
-                            "flash_bytes": 1032981,
-                            "flash_percentage": 32,
-                            "ram_bytes": 46888,
+                            "flash_bytes": 1042933,
+                            "flash_percentage": 33,
+                            "ram_bytes": 47060,
                             "ram_percentage": 14
                             }]
                     },
 {"name": "WiFi/examples/WiFiScan",
                     "sizes": [{
-                            "flash_bytes": 898345,
+                            "flash_bytes": 906981,
                             "flash_percentage": 28,
-                            "ram_bytes": 43588,
+                            "ram_bytes": 43744,
                             "ram_percentage": 13
                             }]
                     },
 {"name": "WiFi/examples/WiFiScanAsync",
                     "sizes": [{
-                            "flash_bytes": 898597,
+                            "flash_bytes": 907217,
                             "flash_percentage": 28,
-                            "ram_bytes": 43588,
-                            "ram_percentage": 13
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiScanDualAntenna",
-                    "sizes": [{
-                            "flash_bytes": 899237,
-                            "flash_percentage": 28,
-                            "ram_bytes": 43588,
-                            "ram_percentage": 13
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiSmartConfig",
-                    "sizes": [{
-                            "flash_bytes": 934321,
-                            "flash_percentage": 29,
-                            "ram_bytes": 43908,
-                            "ram_percentage": 13
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiTelnetToSerial",
-                    "sizes": [{
-                            "flash_bytes": 918009,
-                            "flash_percentage": 29,
-                            "ram_bytes": 45004,
-                            "ram_percentage": 13
-                            }]
-                    },
-{"name": "WiFi/examples/WiFiUDPClient",
-                    "sizes": [{
-                            "flash_bytes": 906705,
-                            "flash_percentage": 28,
-                            "ram_bytes": 45276,
+                            "ram_bytes": 43744,
                             "ram_percentage": 13
                             }]
                     }
